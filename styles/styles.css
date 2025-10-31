@@ -1,0 +1,62 @@
+body {
+    background-color: #1f1f1f;
+    color: whitesmoke;
+    margin: auto;
+    width: 50%;
+    font-size: 24px;
+}
+
+p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.project-list a {
+    text-decoration: none;
+}
+
+.project-list{
+    list-style-type: none;
+}
+.project {
+    margin: 1%;
+    border: whitesmoke 1px;
+    border-style: dashed;
+    border-radius: 5q;
+    text-align: center;
+    padding: 1%;
+}
+.project p {
+    text-align: center;
+}
+
+.project .lang {
+    font-size: 75%;
+    font-weight: bold;
+}
+
+a {
+    font-style: italic;
+    color: white;
+}
+
+a:hover {
+    color: gray;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+    border-style: solid;
+}
+
+table td,
+table th {
+    border: 1px solid;
+    padding: 15px;
+}
